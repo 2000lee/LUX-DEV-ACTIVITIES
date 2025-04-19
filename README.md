@@ -1,0 +1,1 @@
+The scripts posted here appear to be related to the 6-month data science and AI course you are currently taking @ LUXDEV, which began on March 28, 2025. They might contain course materials, assignment solutions, or project work related to this program.
