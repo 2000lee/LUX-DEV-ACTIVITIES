@@ -1,22 +1,24 @@
 set search_path to luxsqlll;
 
+--1.	List all customers with their full name and city.  
 select * from customers;
 select * from books;
 select * from orders;
 
+--2. Show all books priced above 2000
 select price
 from books
 where price>2000;
 
-select title
-from books
-where published_date>'2023-01-01';
-
+--3. List customers who live in 'Nairobi'  
 select first_name
 from customers
 where city = 'Nairobi';
 
-
+--4. Retrieve all book titles that were published in 2023.  
+select title
+from books
+where published_date>'2023-01-01';
 alter table customers
 add column city VARCHAR (100);
 
